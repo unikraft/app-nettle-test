@@ -1,0 +1,3 @@
+$(eval $(call addlib,applibnettletest))
+
+APPLIBNETTLETEST_SRCS-y += $(APPLIBNETTLETEST_BASE)/main.c
