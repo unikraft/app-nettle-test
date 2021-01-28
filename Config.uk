@@ -1,0 +1,7 @@
+### Invisible option for dependencies
+config APPLIBNETTLETEST_DEPENDENCIES
+	bool
+	default y
+	select LIBNETTLE
+	select LIBNETTLE_TEST
+	select LIBNEWLIBC
