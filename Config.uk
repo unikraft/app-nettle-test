@@ -4,4 +4,4 @@ config APPLIBNETTLETEST_DEPENDENCIES
 	default y
 	select LIBNETTLE
 	select LIBNETTLE_TEST
-	select LIBNEWLIBC
+	select LIBMUSL

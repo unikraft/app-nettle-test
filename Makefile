@@ -1,6 +1,6 @@
 UK_ROOT ?= $(PWD)/../../unikraft
 UK_LIBS ?= $(PWD)/../../libs
-LIBS := $(UK_LIBS)/lib-nettle:$(UK_LIBS)/lib-newlib
+LIBS := $(UK_LIBS)/lib-nettle:$(UK_LIBS)/lib-musl
 
 all:
 	@$(MAKE) -C $(UK_ROOT) A=$(PWD) L=$(LIBS)
